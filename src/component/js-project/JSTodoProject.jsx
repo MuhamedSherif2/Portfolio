@@ -1,7 +1,7 @@
 import React from 'react'
-import Img from '../assets/image/JS-ecommrce2.png'
+import Img from './img/JS-todo.png'
 
-function JSEcommerce2() {
+function JSTodoProject() {
   return (
     <div>
       <div className='item'>
@@ -11,4 +11,4 @@ function JSEcommerce2() {
   )
 }
 
-export default JSEcommerce2
+export default JSTodoProject

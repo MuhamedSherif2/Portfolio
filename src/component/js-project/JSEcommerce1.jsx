@@ -1,5 +1,5 @@
 import React from 'react'
-import Img from '../assets/image/JS-ecommrce1.png'
+import Img from './img/JS-ecommrce1.png'
 
 function JSEcommerce1() {
   return (

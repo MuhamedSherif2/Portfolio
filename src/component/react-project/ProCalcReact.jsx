@@ -1,9 +1,10 @@
 import React from 'react'
-import Img from '../assets/image/JS-random.png'
+import Img from './img/react calc.png'
 
-function JSRandomProject() {
+
+function CalcReact() {
   return (
-    <div>
+    <div className='calc'>
       <div className='item'>
         <img src={Img} className='img' />
       </div>
@@ -11,4 +12,4 @@ function JSRandomProject() {
   )
 }
 
-export default JSRandomProject
+export default CalcReact;

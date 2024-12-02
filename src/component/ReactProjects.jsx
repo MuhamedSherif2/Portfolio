@@ -1,6 +1,6 @@
 import React from 'react'
-import ProTodoReact from './ProTodoReact'
-import ProCalcReact from './ProCalcReact'
+import ProTodoReact from './react-project/ProTodoReact'
+import ProCalcReact from './react-project/ProCalcReact'
 
 function ReactProjects() {
   return (

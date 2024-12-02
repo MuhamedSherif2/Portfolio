@@ -1,9 +1,9 @@
 import React from 'react'
-import Img from '../assets/image/React todo.png'
+import Img from './img/JS-calc.png'
 
-function ProTodoReact() {
+function JSCalcProject() {
   return (
-    <div className='todo'>
+    <div>
       <div className='item'>
         <img src={Img} className='img' />
       </div>
@@ -11,4 +11,4 @@ function ProTodoReact() {
   )
 }
 
-export default ProTodoReact
+export default JSCalcProject

@@ -1,11 +1,11 @@
 import React from 'react'
-import JSCalcProject from './JSCalcProject'
-import JSEcommerce1 from './JSEcommerce1'
-import JSEcommerce2 from './JSEcommerce2'
-import JSRandomProject from './JSRandomProject'
-import JSTodoProject from './JSTodoProject'
-import ProTodoReact from './ProTodoReact'
-import ProCalcReact from './ProCalcReact'
+import JSCalcProject from './js-project/JSCalcProject'
+import JSEcommerce1 from './js-project/JSEcommerce1'
+import JSEcommerce2 from './js-project/JSEcommerce2'
+import JSRandomProject from './js-project/JSRandomProject'
+import JSTodoProject from './js-project/JSTodoProject'
+import ProTodoReact from './react-project/ProTodoReact'
+import ProCalcReact from './react-project/ProCalcReact'
 
 function AllProjects() {
     return (

@@ -178,12 +178,15 @@ header .container label{
 /* end nav */
 /* start project */
 .item{
-
+    height: 400px;
+    width: 350px;
+    margin-top: 10px;
 }
 .img{
-    width: 335px;
+    width: 325px;
     height: 250px;
-    border-radius: 10px;
+    padding: 10px;
+    border-radius: 20px;
 }
 .reactProject{
     width: 100%;
@@ -194,8 +197,19 @@ header .container label{
     width: 80%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(360px,1fr));
     padding-top: 30px;
     text-align: center;
+}
+@media (max-width:991px) {
+    .reactProject{
+        height: auto;
+    }
+    .react{
+        grid-template-columns: repeat(auto-fit,minmax(340px,1fr));
+        justify-content: center;
+
+        text-align: center;
+    }
 }
 /* end project */
