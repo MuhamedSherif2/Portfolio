@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Parkinsans:wght@300..800&family=Playwrite+DE+Grund:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Geist Mono", monospace;
+    padding: 0%;
+    margin: 0%;
+}
+:root{
+    --fri-color:#E4E0E1;
+    --sec-color:#D6C0B3;
+    --thr-color:#AB886D;
+    --fuor-color:#493628;
+}
+
+/* start nav */
+header{
+    width: 100%;
+    background-color: var(--fuor-color);
+    color: var(--fri-color);
+    height: 50px;
+    padding-top: 5px;
+}
+header .container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header .container h2{
+    font-size: 30px;
+}
+header .container h2 span{
+    color: var(--thr-color);
+}
+header .container ul{
+    display: flex;
+    gap: 20px;
+}
+header .container ul li{
+    list-style: none;
+}
+header .container ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--fri-color);
+    transition: 0.3s ease;
+}
+header .container ul li a.active{
+    background-color: var(--thr-color);
+    padding: 5px;
+    border-radius: 5px;
+}
+header .container #toggle{
+    display: none;
+}
+header .container label{
+    display: none;
+}
+@media (max-width:991px) {
+    header .container label{
+        display: block;
+        cursor: pointer;
+    }
+    header #toggle:checked ~ ul{
+        display: none;
+    }
+    header ul{
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        background-color: var(--fuor-color);
+        margin-top: 10px;
+        height: 150px;
+        z-index: 999;
+    }
+}
+/* end nav */
+
+/* start footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    background-color: var(--fuor-color);
+}
+.footer .email{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.footer .email a{
+    font-size: 20px;
+    color: var(--fri-color);
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+.footer .email a:hover{
+    color: var(--sec-color);
+}
+.footer .line{
+    content: '';
+    width: 80%;
+    height: 1px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.footer .contact{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .contact .name{
+    color: var(--fri-color);
+}
+.footer .contact .name span{
+    color: var(--sec-color);
+}
+.footer .contact .links{
+    display: flex;
+}
+.footer .contact .links .link{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.footer .contact .links .link a{
+    color: var(--fri-color);
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+.footer .contact .links .link a:hover{
+    color: var(--sec-color);
+}
+/* end footer */
