@@ -191,6 +191,7 @@ header .container label{
     background-color: var(--sec-color);
 }
 .react{
+    width: 80%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
