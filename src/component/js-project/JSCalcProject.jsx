@@ -9,16 +9,18 @@ function JSCalcProject() {
       <div className='item'>
         <img src={Img} className='img' />
         <h2>Calculator</h2>
-        <a href="https://calculator-js-delta-eight.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer">
-          <FaEye />
-        </a>
-        <a href="https://github.com/MuhamedSherif2/Calculator-JS"
-          target="_blank"
-          rel="noopener noreferrer">
+        <div className="a">
+          <a href="https://calculator-js-delta-eight.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer">
+            <FaEye />
+          </a>
+          <a href="https://github.com/MuhamedSherif2/Calculator-JS"
+            target="_blank"
+            rel="noopener noreferrer">
             <FaCode />
-        </a>
+          </a>
+        </div>
       </div>
     </div>
   )

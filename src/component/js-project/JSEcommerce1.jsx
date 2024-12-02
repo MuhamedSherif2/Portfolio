@@ -9,16 +9,18 @@ function JSEcommerce1() {
       <div className='item'>
         <img src={Img} className='img' />
         <h2>E-commerce</h2>
-        <a href="https://e-commerce-mu-rust.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer">
-          <FaEye />
-        </a>
-        <a href="https://github.com/MuhamedSherif2/E-commerce"
-          target="_blank"
-          rel="noopener noreferrer">
+        <div className="a">
+          <a href="https://e-commerce-mu-rust.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer">
+            <FaEye />
+          </a>
+          <a href="https://github.com/MuhamedSherif2/E-commerce"
+            target="_blank"
+            rel="noopener noreferrer">
             <FaCode />
-        </a>
+          </a>
+        </div>
       </div>
     </div>
   )

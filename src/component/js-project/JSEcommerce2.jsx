@@ -8,16 +8,18 @@ function JSEcommerce2() {
       <div className='item'>
         <img src={Img} className='img' />
         <h2>Dream-Phone</h2>
-        <a href="https://apple-markt.vercel.app/"
-          target="_blank"
-          rel="noopener noreferrer">
-          <FaEye />
-        </a>
-        <a href="https://github.com/MuhamedSherif2/Apple-markt"
-          target="_blank"
-          rel="noopener noreferrer">
+        <div className="a">
+          <a href="https://apple-markt.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer">
+            <FaEye />
+          </a>
+          <a href="https://github.com/MuhamedSherif2/Apple-markt"
+            target="_blank"
+            rel="noopener noreferrer">
             <FaCode />
-        </a>
+          </a>
+        </div>
       </div>
     </div>
   )
