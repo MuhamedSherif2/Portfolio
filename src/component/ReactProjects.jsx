@@ -4,10 +4,12 @@ import ProCalcReact from './ProCalcReact'
 
 function ReactProjects() {
   return (
-    <div>
-      <ProCalcReact />
-      <ProTodoReact />
-    </div>
+    <section className="reactProject">
+      <div className='react'>
+        <ProCalcReact />
+        <ProTodoReact />
+      </div>
+    </section>
   )
 }
 

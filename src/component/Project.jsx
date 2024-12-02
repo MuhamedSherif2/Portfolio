@@ -1,14 +1,17 @@
 import React from 'react'
-import { Link, Outlet } from 'react-router-dom'
+import { NavLink, Outlet } from 'react-router-dom'
 
 function Project() {
   return (
     <section>
-      <nav>
-        <Link to='all-projects'>All</Link>
-        <Link to='javascript-projects'>Javascript</Link>
-        <Link to='react-projects'>React</Link>
+      <nav className='nav'>
+        <div className="link">
+          <NavLink to='all-projects'>All</NavLink>
+          <NavLink to='javascript-projects'>Javascript</NavLink>
+          <NavLink to='react-projects'>React</NavLink>
+        </div>
       </nav>
+
       <div>
         <Outlet />
       </div>

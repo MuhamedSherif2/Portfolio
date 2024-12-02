@@ -7,13 +7,15 @@ import JSEcommerce2 from './JSEcommerce2'
 
 function JavascriptProjects() {
   return (
-    <div>
-      <JSCalcProject />
-      <JSRandomProject />
-      <JSTodoProject />
-      <JSEcommerce1 />
-      <JSEcommerce2 />
-    </div>
+    <section className="reactProject">
+      <div className='react'>
+        <JSCalcProject />
+        <JSRandomProject />
+        <JSTodoProject />
+        <JSEcommerce1 />
+        <JSEcommerce2 />
+      </div>
+    </section>
   )
 }
 

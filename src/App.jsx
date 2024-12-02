@@ -17,6 +17,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/project' element={<Project />}>
+          <Route index element={<AllProjects />} />
           <Route path='all-projects' element={<AllProjects />} />
           <Route path='javascript-projects' element={<JavascriptProjects />} />
           <Route path='react-projects' element={<ReactProjects />} />

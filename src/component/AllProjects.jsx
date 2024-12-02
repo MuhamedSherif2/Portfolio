@@ -9,15 +9,17 @@ import ProCalcReact from './ProCalcReact'
 
 function AllProjects() {
     return (
-        <div>
-            <JSCalcProject />
-            <JSEcommerce1 />
-            <JSEcommerce2 />
-            <JSRandomProject />
-            <JSTodoProject />
-            <ProTodoReact />
-            <ProCalcReact />
-        </div>
+        <section className="allProject">
+            <div className='all'>
+                <JSCalcProject />
+                <JSEcommerce1 />
+                <JSEcommerce2 />
+                <JSRandomProject />
+                <JSTodoProject />
+                <ProTodoReact />
+                <ProCalcReact />
+            </div>
+        </section>
     )
 }
 
