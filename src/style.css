@@ -71,9 +71,10 @@ header .container label{
         flex-direction: column;
         text-align: center;
         background-color: var(--fuor-color);
-        margin-top: 10px;
         height: 150px;
         z-index: 999;
+        margin-top: 3px;
+        padding: 10px;
     }
 }
 /* end nav */
@@ -139,6 +140,9 @@ header .container label{
     color: var(--sec-color);
 }
 @media (max-width:786px) {
+    .footer{
+        height: 27vh;
+    }
     .footer .line{
         width: 90%;
     }
@@ -258,7 +262,7 @@ header .container label{
     background-color: var(--sec-color);
 }
 .about div .about-img{
-    width: 70%;
+    width: 60%;
     border-radius: 50%;
     cursor: pointer;
     box-shadow: 0px -5px 10px rgb(66, 66, 66);
