@@ -3,7 +3,7 @@ import img from '../assets/IMG-20240908-WA0092.jpg'
 
 function About() {
   return (
-    <section className='about d-flex'>
+    <section className='about d-flex pt-4'>
       <div className='container d-flex flex-column flex-lg-row flex-md-row align-items-center pt-5 '>
         <div className=''>
           <h3 className='fs-2 fw-bolder'>Hello, It's Me <br /> <span>Mohammed Sherif</span> <br /> And i'm </h3>
