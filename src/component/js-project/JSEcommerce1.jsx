@@ -8,7 +8,7 @@ function JSEcommerce1() {
     <div>
       <div className='item'>
         <img src={Img} className='img' />
-        <h2>E-commerce</h2>
+        <h2 className='fs-4 fw-bolder d-flex justify-content-center'>E-commerce</h2>
         <div className="a">
           <a href="https://e-commerce-mu-rust.vercel.app/"
             target="_blank"

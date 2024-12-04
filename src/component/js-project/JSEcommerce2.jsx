@@ -7,7 +7,7 @@ function JSEcommerce2() {
     <div>
       <div className='item'>
         <img src={Img} className='img' />
-        <h2>Dream-Phone</h2>
+        <h2 className='fs-4 fw-bolder d-flex justify-content-center'>Dream-Phone</h2>
         <div className="a">
           <a href="https://apple-markt.vercel.app/"
             target="_blank"

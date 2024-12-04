@@ -8,7 +8,7 @@ function CalcReact() {
     <div className='calc'>
       <div className='item'>
         <img src={Img} className='img' />
-        <h2>Calculator-React JS</h2>
+        <h2 className='fs-4 fw-bolder d-flex justify-content-center'>Calculator-React JS</h2>
         <div className="a">
           <a href="https://calculator-wheat-one-95.vercel.app/"
             target="_blank"

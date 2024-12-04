@@ -9,8 +9,8 @@ import ProCalcReact from './react-project/ProCalcReact'
 
 function AllProjects() {
     return (
-        <section className="allProject">
-            <div className='all'>
+        <section className='all-projects'>
+            <div className='container'>
                 <JSCalcProject />
                 <JSEcommerce1 />
                 <JSEcommerce2 />

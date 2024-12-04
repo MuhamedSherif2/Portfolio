@@ -8,7 +8,7 @@ function JSTodoProject() {
     <div>
       <div className='item'>
         <img src={Img} className='img' />
-        <h2>To-do List</h2>
+        <h2 className='fs-4 fw-bolder d-flex justify-content-center'>To-do List</h2>
         <div className="a">
           <a href="https://to-do-list-app-two-vert.vercel.app/"
             target="_blank"

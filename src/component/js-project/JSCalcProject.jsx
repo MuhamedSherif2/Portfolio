@@ -8,7 +8,7 @@ function JSCalcProject() {
     <div>
       <div className='item'>
         <img src={Img} className='img' />
-        <h2>Calculator</h2>
+        <h2 className='fs-4 fw-bolder d-flex justify-content-center'>Calculator</h2>
         <div className="a">
           <a href="https://calculator-js-delta-eight.vercel.app/"
             target="_blank"

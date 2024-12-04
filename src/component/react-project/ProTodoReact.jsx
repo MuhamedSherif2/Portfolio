@@ -9,7 +9,7 @@ function ProTodoReact() {
     <div className='todo'>
       <div className='item'>
         <img src={Img} className='img' />
-        <h2>To-do List</h2>
+        <h2 className='fs-4 fw-bolder d-flex justify-content-center'>To-do List-React JS</h2>
         <div className="a">
           <a href="https://to-do-list-eosin-nine-35.vercel.app"
             target="_blank"

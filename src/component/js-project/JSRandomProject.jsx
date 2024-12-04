@@ -8,7 +8,7 @@ function JSRandomProject() {
     <div>
       <div className='item'>
         <img src={Img} className='img' />
-        <h2>Random Name</h2>
+        <h2 className='fs-4 fw-bolder d-flex justify-content-center'>Random Name</h2>
         <div className="a">
           <a href="https://randomname-lilac.vercel.app/"
             target="_blank"
